@@ -21,20 +21,26 @@ Planning a trip in Pakistan means juggling multiple disconnected apps and still 
 - Weak internet in northern areas, where most apps fail exactly when needed most
 - No local context — prayer stops, halal food, family planning, nearest hospital
 
-## Core Features
+## Baseline (handled, not the pitch)
+
+Smart Itinerary · Budget Calculator · Packing Checklist · Offline Access — every travel app has these. SafarAI has them too, but they're not what wins the room.
+
+## What No Other Travel App Has
+
+The features that make this pitch memorable:
 
 | Feature | What It Does |
 |---|---|
-| **Smart Itinerary** | Day-by-day plan with departure time, rest stops, food, hotels, and attractions |
-| **Budget Calculator** | Auto-estimates fuel, bus tickets, hotels, meals, and emergency money |
-| **Packing Assistant** | Generates a checklist based on destination, weather, duration, and activities |
-| **Safety Mode** | Emergency contacts, live location sharing, nearby hospitals, police stations |
-| **AI Travel Chat** | Ask questions like "Can I finish this trip in one day?" and get direct answers |
-| **Offline Trip Card** | Saves itinerary, hotel details, and contacts locally for weak-signal areas |
+| **Live Hazard Map & Risk Score** | Crowdsourced alerts for landslides, flooding, potholes, and checkpoints, condensed into a live Trip Risk Score with a smarter departure time |
+| **Group Expense Split** | Automatically splits fuel, hotel, and food costs across the group and settles who owes who — no manual tracking after the trip |
+| **Family Safety Circle** | Automatic check-in messages to family at each rest stop, sent by SMS so it still works where mobile data doesn't |
+| **Urdu Voice Mode** | Plan and query trips by speaking in Urdu — built for hands-free driving and users not comfortable typing in English |
+| **Fuel & Cash Finder** | Maps CNG/petrol stations and ATMs along remote routes — critical where fuel is sparse and cards aren't accepted |
+| **Prayer-Aware Routing** | Auto-adjusts departure and rest timing around the five daily prayers for that day and location |
 
-## What Makes It Unique
+## Localization Layer
 
-Built for Pakistan-specific travel realities, not a generic map app:
+Beyond the headline features, every screen assumes local context by default:
 
 | Local Challenge | How SafarAI Handles It |
 |---|---|
@@ -53,15 +59,15 @@ Screens for the demo build:
 1. Login / Guest Mode
 2. Trip Details Form
 3. AI-Generated Itinerary
-4. Budget Breakdown
+4. Budget Breakdown & Group Split
 5. Packing Checklist
-6. Emergency Screen
+6. Hazard Map & Emergency Screen
 
 ## Demo Example
 
 **Input:** Sukkur → Lahore · 4 people · 2 days · PKR 45,000 · by car
 
-**Output:** recommended departure time, route and rest stops, fuel estimate, hotel suggestions, food budget, places to visit, packing list, and emergency contacts.
+**Output:** recommended departure time, route and rest stops, live Trip Risk Score, fuel estimate, group cost split, hotel suggestions, food budget, places to visit, packing list, and emergency contacts with an SMS check-in to family.
 
 ## Tech Stack
 
@@ -76,11 +82,13 @@ Screens for the demo build:
 
 Solo travelers · Families · Backpackers · Students · Road trip enthusiasts · Tourists visiting Pakistan
 
-## Vision
+## Vision — Beyond the Hackathon
+
+Hazard alerts and the Trip Risk Score already make SafarAI proactive. The next step is a fully autonomous AI travel agent:
 
 > "Plan a five-day family trip to Skardu under PKR 80,000."
 
-Long-term, SafarAI acts as an AI travel agent that books accommodations, plans the route, estimates expenses, suggests attractions, creates a packing list, monitors weather, and adapts the plan in real time as conditions change.
+Long-term, SafarAI books accommodations, plans the route, estimates expenses, suggests attractions, creates a packing list, monitors weather, and adapts the plan in real time as conditions change — negotiating and booking on the traveler's behalf.
 
 ## One-Line Pitch
 
